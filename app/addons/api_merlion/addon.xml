@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>api_merlion</id>
+    <version>1.0.52</version>
+    <default_language>en</default_language>
+    <priority>100</priority>
+    <status>active</status>
+    <settings  edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="api_merlion_config">
+                <items>
+                    <item id="api_merlion_user">
+                        <type>input</type>
+                        <default_value>CL1797|API</default_value>
+                        <variants/>
+                    </item>
+                    <item id="api_merlion_password">
+                        <type>password</type>
+                        <default_value>apwgj045oth</default_value>
+                        <variants/>
+                    </item>
+                    <item id="api_merlion_version">
+                        <type>selectbox</type>
+                        <variants>
+                            <item id="work">
+                                <name>working API 3.0</name>
+                                <translations>
+                                    <item lang="ru">рабочая API 3.0</item>
+                                </translations>
+                            </item>
+                            <item id="test">
+                                <name>test API 3.0</name>
+                                <translations>
+                                    <item lang="ru">тестовая API 3.0</item>
+                                </translations>
+                            </item>
+                        </variants>
+                        <default_value>test</default_value>
+                    </item>
+                    <item id="api_merlion_import_cron_password">
+                        <type>input</type>
+                        <default_value>MYPASS</default_value>
+                    </item> 
+                    <item id="api_merlion_counter">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_shipment_date">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_shipment_agent">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_shipment_method">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_representative">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_endpoint_delivery_id">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_packing_type">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_order_id">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_order_auto_create">
+                        <type>hidden</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="api_merlion_order_note">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_product_language">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_product_available">
+                        <type>hidden</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="api_merlion_product_package">
+                        <type>hidden</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="api_merlion_delete_import_file">
+                        <type>hidden</type>
+                        <default_value>Y</default_value>
+                    </item>                    
+                    <item id="api_merlion_last_items_update">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_last_features_update">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_last_images_update">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_last_items_update_stop">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_last_features_update_stop">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_last_images_update_stop">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_yml_export_enable">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_yml_export_code">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_import_items_update">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_import_features_update">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_import_images_update">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_import_items_extra">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_import_features_extra">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_import_images_extra">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_import_offline">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="api_merlion_logging">
+                        <type>hidden</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="api_merlion_debug">
+                        <type>hidden</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="api_merlion_products_filters_create">
+                        <type>hidden</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="api_merlion_products_filters_bind">
+                        <type>hidden</type>
+                        <default_value>N</default_value>
+                    </item>
+                    <item id="api_merlion_products_filters_enable">
+                        <type>hidden</type>
+                        <default_value>N</default_value>
+                    </item>    
+                    <item id="api_merlion_sort_features">
+                        <type>hidden</type>
+                        <default_value>Y</default_value>
+                    </item>                     
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="install" editions="MULTIVENDOR,ULTIMATE">
+            REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_api_merlion', 'Y', 'addons');
+        </item>
+        <item for="install" editions="MULTIVENDOR,ULTIMATE">
+            REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_api_merlion_product', 'Y', 'addons');
+        </item>        
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">
+            DELETE FROM ?:privileges WHERE privilege IN ('manage_api_merlion');
+        </item>
+        <item for="uninstall" editions="MULTIVENDOR,ULTIMATE">
+            DELETE FROM ?:privileges WHERE privilege IN ('manage_api_merlion_product');
+        </item>        
+    </queries>
+    <functions>
+        <item for="install">fn_api_merlion_install</item>
+        <item for="install">fn_api_merlion_restore_settings</item>
+        <item for="uninstall">fn_api_merlion_uninstall</item>
+        <item for="uninstall">fn_api_merlion_save_settings</item>
+    </functions>
+</addon>

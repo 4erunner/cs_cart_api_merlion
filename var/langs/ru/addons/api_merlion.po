@@ -1,0 +1,694 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::api_merlion"
+msgid "API Merlion"
+msgstr "API Мерлион"
+
+msgctxt "Addons::description::api_merlion"
+msgid "Working with the Merlion goods through the Web-service (API) B2B-module"
+msgstr "Работа с товарами Merlion через Web-сервис (API) B2B-модуля"
+
+msgctxt "Languages::api_merlion_menu"
+msgid "API Merlion"
+msgstr "API Мерлион"
+
+msgctxt "Languages::api_merlion_menu_orders"
+msgid "API Merlion"
+msgstr "API Мерлион"
+
+msgctxt "Languages::api_merlion_menu_menu_description"
+msgid "Managing groups and importing products"
+msgstr "Управление группами и импортирование товаров"
+
+msgctxt "Languages::api_merlion_menu_orders_menu_description"
+msgid "Information about the ordering system in the API Merlion"
+msgstr "Информация о заказав в системе API Мерлиона"
+
+msgctxt "Languages::api_merlion_import_items"
+msgid "Items"
+msgstr "Товары"
+
+msgctxt "Languages::api_merlion_import_features"
+msgid "Features"
+msgstr "Характеристики"
+
+msgctxt "Languages::api_merlion_import_images"
+msgid "Images"
+msgstr "Изображения"
+
+msgctxt "Languages::api_merlion_additional_fields"
+msgid "Additional fields"
+msgstr "Дополнительные поля"
+
+msgctxt "Languages::api_merlion_for_downloaded"
+msgid "Only active products"
+msgstr "Только активные товары"
+
+msgctxt "Languages::api_merlion_all_categories"
+msgid "All categories"
+msgstr "Все по категориям"
+
+msgctxt "Languages::api_merlion_settings.manage_handbooks"
+msgid "API Merlion: Setup default Handbooks"
+msgstr "API Мерлион: Настройки Справочников поумолчанию."
+
+msgctxt "Languages::api_merlion_settings.manage_values"
+msgid "API Merlion: Setup Values"
+msgstr "API Мерлион: Настройки Переменных"
+
+msgctxt "Languages::api_merlion_settings.update_catalog_groups"
+msgid "API Merlion: Update Catalog"
+msgstr "API Мерлион: Обновить Каталог"
+   
+msgctxt "Languages::api_merlion_settings.update_shipment_date"
+msgid "API Merlion: Update shipment date"
+msgstr "API Мерлион: Обновить дату отгрузки"
+
+msgctxt "Languages::api_merlion_settings.handbook"
+msgid "Handbook"
+msgstr "Справочник"
+
+msgctxt "Languages::api_merlion_settings.values"
+msgid "Values"
+msgstr "Значения"
+
+msgctxt "Languages::api_merlion_settings.counter"
+msgid "Accounts"
+msgstr "Контрагенты"
+
+msgctxt "Languages::api_merlion_settings.shipment_agent"
+msgid "Shipping agent"
+msgstr "Агенты по доставке"
+
+msgctxt "Languages::api_merlion_settings.shipment_date"
+msgid "Available shipping date"
+msgstr "Доступные даты отгрузки"
+
+msgctxt "Languages::api_merlion_settings.shipment_method"
+msgid "Available methods of shipment"
+msgstr "Доступные методы отгрузки"
+
+msgctxt "Languages::api_merlion_settings.order_id"
+msgid "Number current order"
+msgstr "Номер актуального заказ"
+
+msgctxt "Languages::api_merlion_settings.order_auto_create"
+msgid "Automatic creation of order"
+msgstr "Автоматическое создание заказа"
+
+msgctxt "Languages::api_merlion_settings.order_note"
+msgid "Creator identifier"
+msgstr "Идентификатор создателя"
+
+msgctxt "Languages::api_merlion_settings.create_order"
+msgid "Create order"
+msgstr "Создать заказ"
+
+msgctxt "Languages::api_merlion_settings.yml_export"
+msgid "Аctivation code (YML_export)"
+msgstr "Код активации (YML_export)"
+
+msgctxt "Languages::api_merlion_settings.yml_export_enable"
+msgid "Use (YML_export)"
+msgstr "Использовать (YML_export)"
+
+msgctxt "Languages::api_merlion_settings.updated_shipment_date"
+msgid "Shipment date is updated to "
+msgstr "Дата отгрузки обновлена до "
+
+msgctxt "Languages::api_merlion_settings.product_available"
+msgid "The selection mode of prices and quantities of goods."
+msgstr "Режим выбора цен и количества товаров."
+
+msgctxt "Languages::api_merlion_settings.product_package"
+msgid "Selling goods packages?"
+msgstr "Продавать товар упаковками?"
+
+msgctxt "Languages::api_merlion_settings.products_filters_create"
+msgid "Create product filters?"
+msgstr "Создавать фильтры товаров?"
+
+msgctxt "Languages::api_merlion_settings.products_filters_bind"
+msgid "Bind filters to categories?"
+msgstr "Привязать фильтры к категориям?"
+
+msgctxt "Languages::api_merlion_settings.products_filters_enable"
+msgid "Enable filters when creating?"
+msgstr "Включать фильтры при создании?"
+
+msgctxt "Languages::api_merlion_settings.products_filters_delete"
+msgid "Remove filters?"
+msgstr "Удалить фильтры?"
+
+msgctxt "Languages::api_merlion_settings.sort_features"
+msgid "Sort features on the product page?"
+msgstr "Сортировать характеристики на странице товара?"
+
+msgctxt "Languages::api_merlion_settings.representative"
+msgid "The representative of the host contract"
+msgstr "Представитель по основному договору"
+
+msgctxt "Languages::api_merlion_settings.endpoint_delivery_id"
+msgid "The final delivery point"
+msgstr "Конечная точека доставки"
+
+msgctxt "Languages::api_merlion_settings.packing_type"
+msgid "Type of packaging"
+msgstr "Тип упаковки"
+
+msgctxt "Languages::api_merlion_settings.delete_order"
+msgid "Delete order"
+msgstr "Удалить заказ"
+
+msgctxt "Languages::api_merlion_products.attach_groups"
+msgid "API Merlion: Attach groups to categories."
+msgstr "API Мерлион: Прикрепить группы к категориям."
+
+msgctxt "Languages::api_merlion_products.managing_groups"
+msgid "API Merlion: Managing groups."
+msgstr "API Мерлион: Управление группами."
+
+msgctxt "Languages::api_merlion_products.groups"
+msgid "Merlion groups"
+msgstr "Мерлион группы"
+
+msgctxt "Languages::api_merlion_products.attach_title_clear"
+msgid "Detach group"
+msgstr "Отсоединить группу"
+
+msgctxt "Languages::api_merlion_products.attach_title_attach"
+msgid "Attach group"
+msgstr "Присоединить группу"
+
+msgctxt "Languages::api_merlion_products.import"
+msgid "API Merlion: Import products"
+msgstr "API Мерлион: Импортировать товары"
+
+msgctxt "Languages::api_merlion_products.import_button"
+msgid "Import"
+msgstr "Импортировать"
+
+msgctxt "Languages::api_merlion_products.delete_file"
+msgid "Delete the import file?"
+msgstr "Удалять файл импорта?"
+
+msgctxt "Languages::api_merlion_products.import_offline"
+msgid "Stand-alone operation"
+msgstr "Автономная работа"
+
+msgctxt "Languages::api_merlion_products.about_update_values"
+msgid "Variable signaling the operation of the module."
+msgstr "Переменные сигнализирующие о работе модуля."
+
+msgctxt "Languages::api_merlion_products.about_operation_values"
+msgid "The variables involved in the operation of the module."
+msgstr "Переменные участвующие в работе модуля."
+
+msgctxt "Languages::api_merlion_products.items_update"
+msgid "Updating products"
+msgstr "Обновление продукции"
+
+msgctxt "Languages::api_merlion_products.items_quantity"
+msgid "Update product prices"
+msgstr "Обновлять цены товаров"
+
+msgctxt "Languages::api_merlion_products.images_force"
+msgid "Force update"
+msgstr "Принудительно обновить"
+
+msgctxt "Languages::api_merlion_products.features_update"
+msgid "Update features"
+msgstr "Обновление характеристик"
+
+msgctxt "Languages::api_merlion_products.images_update"
+msgid "Update images"
+msgstr "Обновление изображений"
+
+msgctxt "Languages::api_merlion_products.process_update"
+msgid "If the switch is on, the update is running."
+msgstr "Если переключатель включен, обновление запущено."
+
+msgctxt "Languages::api_merlion_products.get_current_data_product"
+msgid "Get current data product"
+msgstr "Получить актуальные данные товара"
+
+msgctxt "Languages::api_merlion_products.get_status_product"
+msgid "Get current status product"
+msgstr "Получить актуальные статус товара"
+
+msgctxt "Languages::api_merlion_products.set_order_product"
+msgid "Add to order"
+msgstr "Поставить в заказ"
+
+msgctxt "Languages::api_merlion_products.product_from_order"
+msgid "This product from the order number"
+msgstr "Товар из заказа № "
+
+msgctxt "Languages::api_merlion_products.will_be_placed"
+msgid " will be placed in the system API Merlion."
+msgstr " будет размещен в системе API Мерлион."
+
+msgctxt "Languages::api_merlion_products.no_products_amount"
+msgid "No amount of available product"
+msgstr "Нет доступного количества товара"
+
+msgctxt "Languages::api_merlion_products.partnumber_name"
+msgid "Part number in the product name"
+msgstr "Партномер в названии продукта"
+
+msgctxt "Languages::api_merlion_orders.order_found"
+msgid "Order No. [order] found"
+msgstr "Заказ номер [order] найден"
+
+msgctxt "Languages::api_merlion_orders.order_created"
+msgid "Order No. [order] is created"
+msgstr "Заказ номер [order] создан"
+
+msgctxt "Languages::api_merlion_orders.add_to_order"
+msgid "Product product_code in the amount _amount_ added to reserves api_merlion_order"
+msgstr "Товар product_code в количестве amount добавлен в резерв api_merlion_order"
+
+msgctxt "Languages::api_merlion_orders.del_to_order"
+msgid "Product product_code in the amount _amount_ delete from api_merlion_order"
+msgstr "Товар product_code в количестве amount удален из резерва api_merlion_order"
+
+msgctxt "Languages::api_merlion_orders.already_to_order"
+msgid "Already added to the reserve"
+msgstr "Уже добавлен в резерв"
+
+msgctxt "Languages::api_merlion_orders.need_order"
+msgid "Need order for reservation"
+msgstr "Необходим заказ для резервирования"
+
+msgctxt "Languages::api_merlion_orders.status"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "Languages::api_merlion_orders.action"
+msgid "Action"
+msgstr "Действие"
+
+msgctxt "Languages::api_merlion_orders.supplier_price_higher"
+msgid "The supplier price is higher than in the order!"
+msgstr "Цена поставщика выше чем в заказе!"
+
+msgctxt "Languages::api_merlion_orders.supplier_product_less"
+msgid "Products at the supplier is less than in the order!"
+msgstr "Товаров у поставщика меньше чем в заказе!"
+
+msgctxt "Languages::api_merlion_orders.product_status_expired"
+msgid "Status product expired!"
+msgstr "Статус товара устарел!"
+
+msgctxt "Languages::api_merlion_orders.product_status_wrong"
+msgid "Status product wrong!"
+msgstr "Не правильный статус товара!"
+
+msgctxt "Languages::api_merlion_orders.product_in_reserve"
+msgid "In reserve"
+msgstr "В резерве"
+
+msgctxt "Languages::api_merlion_orders.manage"
+msgid "API Merlion: order management"
+msgstr "API Мерлион: управление заказами"
+
+msgctxt "Languages::api_merlion_orders.description"
+msgid "Description"
+msgstr "Описание"
+
+msgctxt "Languages::api_merlion_orders.doc_no"
+msgid "Document number"
+msgstr "Номер документа"
+
+msgctxt "Languages::api_merlion_orders.total_cost"
+msgid "Total cost"
+msgstr "Общая стоимость"
+
+msgctxt "Languages::api_merlion_orders.quantity"
+msgid "Quantity"
+msgstr "Количество"
+
+msgctxt "Languages::api_merlion_orders.reserve_date"
+msgid "reserve Date"
+msgstr "Дата резерва"
+
+msgctxt "Languages::api_merlion_orders.order_date"
+msgid "order Date"
+msgstr "Дата заказа"
+
+msgctxt "Languages::api_merlion_errors.error_authorization"
+msgid "Do not fill in the data for authorization."
+msgstr "Не заполнены данные для авторизации."
+
+msgctxt "Languages::api_merlion_errors.error_connection"
+msgid "Connection error, check the logs."
+msgstr "Ошибка соединения, просмотрите логи."
+
+msgctxt "Languages::api_merlion_errors.wrong_type_data"
+msgid "Wrong type data, check the logs."
+msgstr "Неправильно тип данных, просмотрите логи."
+
+msgctxt "Languages::api_merlion_errors.no_data"
+msgid "No data."
+msgstr "Нет данных."
+
+msgctxt "Languages::api_merlion_errors.no_products_update"
+msgid "No products for update or goods is not characteristic of the Language!"
+msgstr "Нет товаров для обновления или у товаров отсутствует характеристика Language!"
+
+msgctxt "Languages::api_merlion_errors.no_period"
+msgid "Not specified period"
+msgstr "Не задан пероид"
+
+msgctxt "Languages::api_merlion_errors.order_update_wrong_type"
+msgid "TYPE update wrong! Must be "ADD" or "DEL""
+msgstr "не верный ТИП обновения! Должен быть "ADD" или "DEL""
+
+msgctxt "Languages::api_merlion_errors.order_no_product"
+msgid "Your order has no such product"
+msgstr "В вашем заказе нет такого товара"
+
+msgctxt "Languages::api_merlion_notice.warning"
+msgid "Working"
+msgstr "Работает"
+
+msgctxt "Languages::api_merlion_notice.groups_update"
+msgid "Groups have been updated. Updated: "
+msgstr "Группы обновлены. Обновлено: "
+
+msgctxt "Languages::api_merlion_notice.groups_deleted"
+msgid "Removing unused: "
+msgstr "Удалено не используемых: "
+   
+msgctxt "Languages::api_merlion_notice.groups_disable"
+msgid "Disabled groups: "
+msgstr "Отключено групп: "
+
+msgctxt "Languages::api_merlion_notice.process_update"
+msgid " Disables the update, if the update was not running!"
+msgstr " Блокирует обноеление, если обновление не было запущено!"
+
+msgctxt "Languages::api_merlion_notice.process_update_running"
+msgid "Update is already running!"
+msgstr "Обновление уже запущено!"
+
+msgctxt "Languages::api_merlion_tooltip.feature_comparison"
+msgid "select the value of the field [Feature comparison] in the import of products"
+msgstr "выбрать значение поля "Feature comparison" в импорте продуктов"
+
+msgctxt "Languages::api_merlion_tooltip.list_price"
+msgid "Where to use the recommended price from the price list Merlion"
+msgstr "Где использовать рекомендованную цену из прайс-листа Мерлион"
+
+msgctxt "Languages::api_merlion_tooltip.yml_export"
+msgid "If you specify a Аctivation code (YML_export), after the completion of the import goods, export of data to be launched in the YML."
+msgstr "Если указан Код активации (YML_export), после завершения импорта продукции, будет запущен экспорт данных в YML."
+
+msgctxt "Languages::api_merlion_tooltip.product_available"
+msgid "Off - all active products, Enabled - available only for reserving products."
+msgstr "Выключен – все активные товары , Включен – только доступные для резервирования товары."
+
+msgctxt "Languages::api_merlion_tooltip.delete_file"
+msgid "Removal of import files after the completion of all operations. If disabled - files will be stored on the server, they are unique and will take up space on the disk!"
+msgstr "Удаление файлов импорта после завершения всех операций. Если отключено - файлы будут сохраняться на сервере, они уникальны и будут занимать место на диске!"
+
+msgctxt "Languages::api_merlion_tooltip.import_offline"
+msgid "Do not use API Merlion for data acquisition, local tables are used."
+msgstr "Не использует API Мерлион для получения данных, используются локальные таблицы."
+ 
+msgctxt "Languages::api_merlion_tooltip.logging"
+msgid "logging will be carried out in a folder: "
+msgstr "логирование будет осуществлятся в папку: "
+ 
+msgctxt "Languages::api_merlion_tooltip.cron_hint"
+msgid "Running via cron"
+msgstr "Запуск через cron"
+
+msgctxt "Languages::api_merlion_tooltip.products_filters_create"
+msgid "Creates filters having features. Sets the filters to categories."
+msgstr "Создает фильтры по имеющимся характеристикам."
+
+msgctxt "Languages::api_merlion_tooltip.products_filters_bind"
+msgid "Bind categories filters to update features."
+msgstr "Привязывает фильтры к категориям при обновлении характеристик."
+
+msgctxt "Languages::api_merlion_tooltip.products_filters_enable"
+msgid "If the option is checked the filter will be created on, otherwise off."
+msgstr "Если параметр активирован фильтр будет создан включеным, иначе выключеным."
+
+msgctxt "Languages::api_merlion_tooltip.products_filters_delete"
+msgid "Removes filters are disabled!"
+msgstr "Удаляет отключенные фильтры!"
+
+msgctxt "Languages::api_merlion_tooltip.products_choose_category"
+msgid "*Optional parameter* Select the category or category for the update. Categories will be processed if they are added to the list or the current selected category will be processed."
+msgstr "*Hеобязательный параметр* Выберете категории или категорию для обновления. Категории будет обработаны если они даобавлены в список либо тока выбранная каатегория будет обработана."
+
+msgctxt "Languages::api_merlion_tooltip.order_auto_create"
+msgid "In the absence of an order to create a new one. You must fill in a note to the order, to order the search!"
+msgstr "При отсутствии заказа создавать новый. Необходимо заполнить примечание к заказу, для поиска заказа!"
+
+msgctxt "Languages::api_merlion_tooltip.order_note"
+msgid "It is necessary to order the search!"
+msgstr "Необходимо для поиска заказа!"
+
+msgctxt "Languages::api_merlion_tooltip.partnumber_name"
+msgid "Adds the part number in the product name."
+msgstr "Добавляет партномер в название продукта."
+
+msgctxt "Languages::api_merlion_tooltip.order_get_status_products"
+msgid "Get the current status products."
+msgstr "Получить актуальные статусы товаров."
+
+msgctxt "Languages::api_merlion_tooltip.order_reserve_all_products"
+msgid "Put to reserve all available products."
+msgstr "Поставить в резерв все доступные товары."
+
+msgctxt "Languages::api_merlion_tooltip.order_status_no"
+msgid "This product is not in stock, you can not put it in reserve."
+msgstr "Данного товара нет на складах, нет возможности поставить его в резерв."
+
+msgctxt "Languages::api_merlion_tooltip.order_status_ok"
+msgid "This product is available for reservation."
+msgstr "Товар доступен для резервирования."
+
+msgctxt "Languages::api_merlion_tooltip.order_status_warning"
+msgid "This product has restrictions on removal from the reserve! Removal from the reserve - pay!"
+msgstr "Данный товар имеет ограничения по снятию с резерва! Снятие с резерва - платное!"
+
+msgctxt "Languages::api_merlion_tooltip.order_product_reserved"
+msgid "This product is reserved."
+msgstr "Товар зарезервирован."
+
+msgctxt "Languages::api_merlion_tooltip.order_reserve_product"
+msgid "Put product in the reserve."
+msgstr "Поставить товар в резерв."
+
+msgctxt "Languages::api_merlion_tooltip.order_unreserve_product"
+msgid "Remove the product from the reserve."
+msgstr "Снять товар с резерва."
+
+msgctxt "Languages::privileges.manage_api_merlion"
+msgid "Manage API Merlion"
+msgstr "Управление API Мерлион"
+
+msgctxt "Languages::privileges.manage_api_merlion_product"
+msgid "Manage API Merlion (add to order, get status)"
+msgstr "Управление API Мерлион (поставить в заказ, получить статус)"
+
+msgctxt "Languages::api_merlion_info.no"
+msgid "Product code"
+msgstr "Код товара"
+
+msgctxt "Languages::api_merlion_info.name"
+msgid "Name of product"
+msgstr "Наименование товара"
+
+msgctxt "Languages::api_merlion_info.Brand"
+msgid "Brand name"
+msgstr "Бренд"
+
+msgctxt "Languages::api_merlion_info.Vendor_part"
+msgid "Part number"
+msgstr "Партномер"
+
+msgctxt "Languages::api_merlion_info.Size"
+msgid "The size"
+msgstr "Размер"
+
+msgctxt "Languages::api_merlion_info.EOL"
+msgid "Tag goods are not manufactured anymore"
+msgstr "Признак товара, снятого с производства"
+
+msgctxt "Languages::api_merlion_info.Warranty"
+msgid "Warranty period (months)"
+msgstr "Срок гарантии (в месяцах)"
+
+msgctxt "Languages::api_merlion_info.Weight"
+msgid "Weight (kg)"
+msgstr "Вес (кг)"
+
+msgctxt "Languages::api_merlion_info.volume"
+msgid "Volume (m3)"
+msgstr "Объем (м3)"
+
+msgctxt "Languages::api_merlion_info.Min_Packaged"
+msgid "Minimum order quantity"
+msgstr "Минимальное количество заказа"
+
+msgctxt "Languages::api_merlion_info.GroupName1"
+msgid "Name of commodity directions"
+msgstr "Наименование товарного направления"
+
+msgctxt "Languages::api_merlion_info.GroupName2"
+msgid "Name of commodity group"
+msgstr "Наименование товарной группы"
+
+msgctxt "Languages::api_merlion_info.GroupName3"
+msgid "Name of commodity subgroups"
+msgstr "Наименование товарной подгруппы"
+
+msgctxt "Languages::api_merlion_info.GroupCode1"
+msgid "Code commodity directions"
+msgstr "Код товарного направления"
+
+msgctxt "Languages::api_merlion_info.GroupCode2"
+msgid "Code of commodity group"
+msgstr "Код товарной группы"
+
+msgctxt "Languages::api_merlion_info.GroupCode3"
+msgid "Code of commodity subgroups"
+msgstr "Код товарной подгруппы"
+
+msgctxt "Languages::api_merlion_info.IsBundle"
+msgid "Tag bundle (whether goods set)"
+msgstr "Признак бандла (является ли товар комплектом)"
+
+msgctxt "Languages::api_merlion_info.ActionDesc"
+msgid "Name marketing action"
+msgstr "Наименование маркетинговой акции"
+
+msgctxt "Languages::api_merlion_info.ActionWWW"
+msgid "Link to a detailed description of the action"
+msgstr "Ссылка на подробное описание акции"
+
+msgctxt "Languages::api_merlion_info.Last_time_modified"
+msgid "Date, time of last modification of the goods"
+msgstr "Дата-время последнего изменения товара"
+
+msgctxt "Languages::api_merlion_info.PriceClient"
+msgid "Customer Price (USD)"
+msgstr "Цена клиента (USD)"
+
+msgctxt "Languages::api_merlion_info.PriceClient_RG"
+msgid "Customer price for the region (USD)"
+msgstr "Цена клиента для региона (USD)"
+
+msgctxt "Languages::api_merlion_info.PriceClient_MSK"
+msgid "Customer price for the Moscow region (USD)"
+msgstr "Цена клиента для московского региона (USD)"
+
+msgctxt "Languages::api_merlion_info.AvailableClient"
+msgid "Available quantity of goods"
+msgstr "Доступное количество товара"
+
+msgctxt "Languages::api_merlion_info.AvailableClient_RG"
+msgid "Available quantity of the goods on the regional stock"
+msgstr "Доступное количество товара на региональном складе"
+
+msgctxt "Languages::api_merlion_info.AvailableClient_MSK"
+msgid "Available quantity of the goods on the Moscow stock"
+msgstr "Доступное количество товара на московском складе"
+
+msgctxt "Languages::api_merlion_info.AvailableExpected"
+msgid "The expected arrival of goods"
+msgstr "Ожидаемый приход товара"
+
+msgctxt "Languages::api_merlion_info.AvailableExpectedNext"
+msgid "The next arrival of goods"
+msgstr "Следующий приход товара"
+
+msgctxt "Languages::api_merlion_info.DateExpectedNext"
+msgid "Date of the next arrival of goods"
+msgstr "Дата следующего прихода товара"
+
+msgctxt "Languages::api_merlion_info.RRP"
+msgid "The recommended retail price (RUB)"
+msgstr "Рекомендованная рознич-ная цена (RUB)"
+
+msgctxt "Languages::api_merlion_info.RRP_Date"
+msgid "Start Date (RRC)"
+msgstr "Дата начала действия (РРЦ)"
+
+msgctxt "Languages::api_merlion_info.PriceClientRUB"
+msgid "Customer Price (RUB)"
+msgstr "Цена клиента (RUB)"
+
+msgctxt "Languages::api_merlion_info.PriceClientRUB_RG"
+msgid "Customer price for the region (RUB)"
+msgstr "Цена клиента для региона (RUB)"
+
+msgctxt "Languages::api_merlion_info.PriceClientRUB_MSK"
+msgid "Customer price for the Moscow region (RUB)"
+msgstr "Цена клиента для московского региона (RUB)"
+
+msgctxt "Languages::api_merlion_info.Online_Reserve"
+msgid "Tag 'online reservation' (0 - yes (allowed), 1 - no (disabled), 2 - paid cancellation reserve 3 - deficit)"
+msgstr "Признак 'он-лайн резервирования' (0 – да (разрешено), 1 – нет (запрещено), 2 – платная отмена резерва, 3 – дефицит)"
+
+msgctxt "Languages::api_merlion_info.ReserveCost"
+msgid "Cost of cancellation of the provision ($ / unit * hour)"
+msgstr "Cтоимость отмены резерва ($/шт*час)"
+
+msgctxt "Languages::api_merlion_info.VAT"
+msgid "VAT rate(%)"
+msgstr "Ставка НДС(%)"
+
+msgctxt "Languages::api_merlion_info.Sales_Limit_Type"
+msgid "Type the minimum limit quantity"
+msgstr "тип ограничения минимального количества"
+
+msgctxt "Languages::api_merlion_info.s_AvailableClient"
+msgid "Product is available"
+msgstr "Товар доступен"
+
+msgctxt "Languages::api_merlion_info.s_Online_Reserve"
+msgid "Possible to put in reserve"
+msgstr "Возможно поставить в резерв"
+
+msgctxt "Languages::api_merlion_info.s_Online_Reserve_pay"
+msgid "Attention! Removal from the reserve with pay!"
+msgstr "Внимание! Снятие с резерва с оплатой!"
+
+msgctxt "Languages::api_merlion_info.s_DateExpectedNext"
+msgid "Date of the next arrival of goods"
+msgstr "Дата следующего прихода товара"
+
+msgctxt "SettingsSections::api_merlion::api_merlion_config"
+msgid "General settings"
+msgstr "Общие настройки"
+
+msgctxt "SettingsOptions::api_merlion::api_merlion_user"
+msgid "Login"
+msgstr "Пользователь"
+
+msgctxt "SettingsOptions::api_merlion::api_merlion_password"
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "SettingsOptions::api_merlion::api_merlion_version"
+msgid "API version"
+msgstr "Версия API"
+
+msgctxt "SettingsTooltips::api_merlion::api_merlion_version"
+msgid "Select version of API. Read documentation Merlion."
+msgstr "Выбор версии API по которой будет работать аддон. Отличия уточнять в документации Merlion"
+
+msgctxt "SettingsOptions::api_merlion::api_merlion_import_cron_password"
+msgid "password for cron"
+msgstr "пароль для cron"
